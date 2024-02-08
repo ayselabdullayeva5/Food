@@ -24,8 +24,8 @@
                 margin: 0 20px
                 border-radius: 5px
     .bgc
-            background-color: #3cc1d8
-            color: #ffff
+        background-color: #3cc1d8
+        color: #ffff
     .col-lg-6
         .box
             background-color: #ffffff
@@ -33,7 +33,10 @@
             .imgbox
                 border-radius: 10px
             .textbox
+                margin-left: 18px
                 .minibox
+                    display: flex
+                    flex-direction: column
                     h2
                         font-size: 22px
                         font-weight: 700
@@ -57,16 +60,37 @@
     .menu
         padding: 17px 53px
         margin-top: 50px
-
-
+    @media ( max-width:768px )
+        .col-lg-6
+            .box
+                .textbox
+                    margin-top: 10px
+                    .minibox
+                        line-height: 1.7
     @media (min-width: 992px)
-        .imgbox
-            align-self: center
-            width: 150px
+        .col-lg-6
+            .box
+                display: flex
+                flex-direction: row
+                .textbox
+                    .minibox
+                        display: flex
+                        flex-direction: row
+                .imgbox
+                    align-self: center
+                    width: 150px
     @media (min-width: 768px) and (max-width: 991px)
-        .imgbox
-            align-self: flex-start
-            width: 125px
+        .col-lg-6
+            .box
+                display: flex
+                flex-direction: row
+                .textbox
+                    .minibox
+                        display: flex
+                        flex-direction: row
+                .imgbox
+                    align-self: flex-start
+                    width: 125px
     @media (min-width: 576px) and (max-width: 767px)
         .col-12
             .box
