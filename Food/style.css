@@ -121,7 +121,7 @@ header nav .home-color {
     margin-right: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 990px) {
+@media (min-width: 768px) and (max-width: 992px) {
   #beautiful {
     text-align: center;
   }
@@ -164,6 +164,20 @@ header nav .home-color {
   font-size: 18px;
   border-radius: 5px;
 }
+@media (min-width: 390px) and (max-width: 768px) {
+  #thehome .textbox {
+    text-align: center;
+  }
+  #thehome .textbox h1 {
+    margin: 0 55px;
+  }
+  #thehome .textbox h5 {
+    margin: 18px 50px 40px 50px;
+  }
+  #thehome .textbox .btn {
+    margin-bottom: 60px;
+  }
+}
 @media (min-width: 768px) and (max-width: 992px) {
   #thehome .imgbox {
     width: 500px;
@@ -177,20 +191,6 @@ header nav .home-color {
   }
   #thehome .textbox h5 {
     margin: 18px 120px 40px 120px;
-  }
-  #thehome .textbox .btn {
-    margin-bottom: 60px;
-  }
-}
-@media (min-width: 390px) and (max-width: 768px) {
-  #thehome .textbox {
-    text-align: center;
-  }
-  #thehome .textbox h1 {
-    margin: 0 55px;
-  }
-  #thehome .textbox h5 {
-    margin: 18px 50px 40px 50px;
   }
   #thehome .textbox .btn {
     margin-bottom: 60px;
@@ -242,12 +242,12 @@ header nav .home-color {
     margin: 0 9px;
   }
 }
-@media (min-width: 766px) and (max-width: 991px) {
+@media (min-width: 766px) and (max-width: 992px) {
   #works .box .textbox h4 {
     margin: 0 90px;
   }
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
   #works .box .minibox {
     display: flex;
     justify-content: center;
@@ -348,7 +348,7 @@ header nav .home-color {
     width: 150px;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 992px) {
   #browse .col-md-12 .textbox h4 {
     margin: 20px 100px;
   }
@@ -443,7 +443,7 @@ header nav .home-color {
     margin: 20px 40px;
   }
 }
-@media (min-width: 768px) and (max-width: 990px) {
+@media (min-width: 768px) and (max-width: 992px) {
   #order .textbox {
     text-align: center;
   }
@@ -513,7 +513,7 @@ header nav .home-color {
     margin-bottom: 50px;
   }
 }
-@media (min-width: 767px) and (max-width: 990px) {
+@media (min-width: 767px) and (max-width: 992px) {
   #callour .imgbox {
     width: 500px;
     margin-left: 90px;
